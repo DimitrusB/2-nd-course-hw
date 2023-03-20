@@ -17,7 +17,7 @@
   height: 1024px;
   left: 0px;
   top: 0px;
-  background: url(img/Rectangle1.jpg);
+  background-image: url(img/Rectangle1.jpg);
 }
 .main__header_welcome {
   padding-top: 217px;
@@ -47,5 +47,23 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  color: #FFFFFF;
+}
+
+.second__header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  background-image: url(img/Rectangle5.jpg);
+}
+.second__header_play-1 {
+  border-radius: 16px;
+}
+.second__header_play-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
   color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
