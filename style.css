@@ -146,6 +146,61 @@
   color: #FFFFFF;
 }
 
+.zagadki__play {
+  max-width: 1440px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/unsplash_iO0I6-mhDEY.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 135px;
+  flex-wrap: wrap;
+}
+.zagadki__play_items {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.zagadki__play_text1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.zagadki__play_text2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer__main {
+  width: 1440px;
+  height: 80px;
+  background: #000915;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__main_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
 @media (max-width: 766px) {
   .center {
     padding-left: 16px;
