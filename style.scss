@@ -4,7 +4,7 @@
         font-family: Montserrat, sans-serif;
 }
 .center{
-        padding-left: calc(50% - 720px);
+        padding-left: calc(50% - 600px);
         padding-right: calc(50% - 720px);
 }
 
@@ -16,7 +16,7 @@
         height: 1024px;
         left: 0px;
         top: 0px;
-        background: url(img/Rectangle1.jpg);
+        background-image: url(img/Rectangle1.jpg);
                 &_welcome{
                         padding-top: 217px;
                         max-width: 788.78px;
@@ -47,4 +47,38 @@
                         line-height: 22px;
                         color: #FFFFFF;
                 }
+}
+.second__header{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1440px;
+        min-height: 556px;
+        background:#000915;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+        flex-wrap: wrap;
+        &_play{
+                max-width: 379px;
+                height: 300px;
+                &-img{
+                border-radius: 16px;
+                }
+                &-text{
+                width: 79px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+                position: relative;
+                left: 28px;
+                bottom: 63px;
+                }
+ 
+
+        }
+
 }
