@@ -27,10 +27,15 @@
             text-align: center;
         }
     }
-    .second__header_play{
-        &-img{
-            width: 343px;
+    .second__header{
+            padding-top: 120px;
+            padding-bottom: 127px;
+            &_play{
             height: 300px;
+            &-img{
+                width: 343px;
+                height: 300px;
+            }
         }
     }
 }

@@ -109,6 +109,13 @@
     color: #FFFFFF;
     text-align: center;
   }
+  .second__header {
+    padding-top: 120px;
+    padding-bottom: 127px;
+  }
+  .second__header_play {
+    height: 300px;
+  }
   .second__header_play-img {
     width: 343px;
     height: 300px;
