@@ -154,11 +154,10 @@
   }
   .years__play {
     max-width: 1440px;
-    min-height: 556px;
+    min-height: 654px;
     background: #000915;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     gap: 64px;
     flex-wrap: wrap;
   }
@@ -186,5 +185,6 @@
   .years__play_img {
     width: 344px;
     height: 236px;
+    margin-bottom: 85px;
   }
 }/*# sourceMappingURL=style.css.map */
