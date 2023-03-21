@@ -152,4 +152,39 @@
     width: 343px;
     height: 300px;
   }
+  .years__play {
+    max-width: 1440px;
+    min-height: 556px;
+    background: #000915;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+  }
+  .years__play_items {
+    padding-top: 51px;
+    width: 343px;
+    align-items: center;
+  }
+  .years__play_text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .years__play_text2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .years__play_img {
+    width: 344px;
+    height: 236px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -38,4 +38,41 @@
             }
         }
     }
+    .years__play{
+        max-width: 1440px;
+        min-height: 556px;
+        background: #000915;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 64px;
+        flex-wrap: wrap;
+        &_items{
+            padding-top: 51px;
+            width: 343px;
+            align-items: center;
+        }
+
+        &_text1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text2{
+            
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_img{
+            width: 344px;
+            height: 236px;  
+        }
+    }
 }
