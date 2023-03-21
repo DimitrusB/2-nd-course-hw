@@ -30,6 +30,7 @@
 }
 .main__header_text {
   margin-top: 32px;
+  margin-bottom: 44px;
   max-width: 481px;
   font-style: normal;
   font-weight: 300;
@@ -38,7 +39,6 @@
   color: #FFFFFF;
 }
 .main__header_button {
-  margin-top: 44px;
   width: 234.06px;
   height: 48.6px;
   background: #9C0332;
@@ -79,6 +79,38 @@
   position: relative;
   left: 28px;
   bottom: 63px;
+}
+
+.years__play {
+  max-width: 1440px;
+  min-height: 556px;
+  background: #000915;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 135px;
+  flex-wrap: wrap;
+}
+.years__play_items {
+  max-width: 584px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.years__play_text1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.years__play_text2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 766px) {
