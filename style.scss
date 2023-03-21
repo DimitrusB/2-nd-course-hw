@@ -4,7 +4,7 @@
         font-family: Montserrat, sans-serif;
 }
 .center{
-        padding-left: calc(50% - 720px);
+        padding-left: calc(50% - 600px);
         padding-right: calc(50% - 720px);
 }
 
@@ -53,18 +53,31 @@
         background-position: center;
         background-size: cover;
         max-width: 1440px;
+        min-height: 556px;
         background-image: url(img/Rectangle5.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+        flex-wrap: wrap;
         &_play{
-                &-1{
+                max-width: 379px;
+                &-img{
                 border-radius: 16px;
                 }
                 &-text{
+                width: 79px;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 24px;
                 line-height: 32px;
                 color: #FFFFFF;
+                position: relative;
+                left: 28px;
+                bottom: 63px;
                 }
+ 
+
         }
 
 }
