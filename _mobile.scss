@@ -114,4 +114,24 @@
             margin-bottom: 85px;  
         }
     }
+    .zagadki__play{
+        max-width: 1440px;
+        height: 788px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/unsplash_iO0I6-mhDEY.jpg);
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 135px;
+        padding-top: 51px;
+        flex-wrap: wrap;
+        &_text1{
+            text-align: center;
+        }
+    }
+    .footer__main_text{
+width: auto;
+    }
 }
