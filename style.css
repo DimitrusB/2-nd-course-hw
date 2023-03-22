@@ -161,10 +161,11 @@
 }
 .zagadki__play_items {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
+  align-items: center;
 }
 .zagadki__play_text1 {
   font-style: normal;

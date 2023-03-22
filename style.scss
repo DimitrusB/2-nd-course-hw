@@ -159,10 +159,11 @@
         flex-wrap: wrap;
         &_items{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: wrap;
                 gap: 32px;
                 justify-content: center;
+                align-items: center;
         }
         &_text1{
                 font-style: normal;
