@@ -160,7 +160,6 @@
   flex-wrap: wrap;
 }
 .zagadki__play_items {
-  max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -175,6 +174,7 @@
   color: #FFFFFF;
 }
 .zagadki__play_text2 {
+  max-width: 1200px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -194,7 +194,6 @@
   justify-content: center;
 }
 .footer__main_text {
-  width: 256px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
