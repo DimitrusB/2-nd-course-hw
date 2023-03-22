@@ -158,7 +158,6 @@
         gap: 135px;
         flex-wrap: wrap;
         &_items{
-                max-width: 1200px;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -173,6 +172,7 @@
                 color: #FFFFFF;
         }
         &_text2{
+        max-width: 1200px;
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
@@ -191,7 +191,6 @@
         flex-wrap: wrap;
         justify-content: center;
         &_text{
-                width: 256px;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 12px;
