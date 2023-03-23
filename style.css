@@ -185,21 +185,23 @@
 }
 
 .footer__main {
-  max-width: 1440px;
+  width: auto;
   min-height: 80px;
   background: #000915;
   display: flex;
   align-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .footer__main_text {
+  width: 1200px;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 @media (max-width: 766px) {
@@ -329,8 +331,5 @@
   }
   .zagadki__play_text1 {
     text-align: center;
-  }
-  .footer__main_text {
-    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
