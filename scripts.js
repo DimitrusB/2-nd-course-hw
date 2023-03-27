@@ -78,3 +78,30 @@
 // } else {
 //     alert('Число четное')    
 // }
+// // --------------------------------------7 DOP
+// let clientOS = Number(prompt('Какую ОС вы тспользуете (0 — iOS, 1 — Android)'));
+// if (clientOS === 1) {
+//     alert('Установите версию приложения для Android по ссылке');
+// } else if (clientOS === 0) {
+//     alert('Установите версию приложения для iOS по ссылке');
+// }
+// else {
+//     alert('Не верный выбор');
+// }
+// --------------------------------------8 DOP
+// let clientOS = Number(prompt('Какую ОС вы тспользуете (0 — iOS, 1 — Android)'));
+// let clientDeviceYear = Number(prompt('Год выпуска вашего телефона'));
+// if (clientOS === 1 && clientDeviceYear >= 2015) {
+//     alert('Установите версию приложения для Android по ссылке');
+// } else if (clientOS === 0 && clientDeviceYear >= 2015) {
+//     alert('Установите версию приложения для iOS по ссылке');
+// }
+// else if (clientOS === 1 && clientDeviceYear <= 2015) {
+//     alert('Установите облегченную версию приложения для Android по ссылке');
+// }
+// else if (clientOS === 0 && clientDeviceYear <= 2015) {
+//     alert('Установите облегченную версию приложения для iOS по ссылке');
+// }
+// else {
+//     alert('Не верный выбор');
+// }
