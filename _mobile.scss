@@ -1,0 +1,90 @@
+@media (max-width:766px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    :hover:disabled{
+
+    }
+    .main__header{
+        height: 735px;
+
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        &_welcome{
+            padding-top: 240px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &_text{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &_button:hover{
+            background: #9C0332;
+        }
+    }
+    .second__header{
+            padding-top: 120px;
+            padding-bottom: 127px;
+            &_play{
+            height: 300px;
+                &-img{
+                    width: 343px;
+                    height: 300px;
+                }
+                &-img:hover{
+                    border-radius: 16px;
+                    border: none;
+                    cursor: none;
+                    
+                }            
+        }
+    }
+    .years__play{
+        max-width: 1440px;
+        min-height: 654px;
+        background: #000915;
+        display: flex;
+        align-items: flex-start;
+        gap: 64px;
+        flex-wrap: wrap;
+        &_items{
+            padding-top: 51px;
+            width: 343px;
+            align-items: center;
+        }
+
+        &_text1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text2{
+            
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_img{
+            width: 344px;
+            height: 236px;
+            margin-bottom: 85px;  
+        }
+    }
+}

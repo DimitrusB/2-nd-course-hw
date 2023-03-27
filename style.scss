@@ -4,7 +4,7 @@
         font-family: Montserrat, sans-serif;
 }
 .center{
-        padding-left: calc(50% - 720px);
+        padding-left: calc(50% - 600px);
         padding-right: calc(50% - 720px);
 }
 
@@ -16,7 +16,7 @@
         height: 1024px;
         left: 0px;
         top: 0px;
-        background: url(img/Rectangle1.jpg);
+        background-image: url(img/Rectangle1.jpg);
                 &_welcome{
                         padding-top: 217px;
                         max-width: 788.78px;
@@ -28,6 +28,7 @@
                 }
                 &_text{
                         margin-top: 32px;
+                        margin-bottom: 44px;
                         max-width: 481px;
                         font-style: normal;
                         font-weight: 300;
@@ -36,7 +37,6 @@
                         color: #FFFFFF;
                 }
                 &_button{
-                        margin-top: 44px;
                         width: 234.06px;
                         height: 48.6px;
                         background: #9C0332;
@@ -47,4 +47,78 @@
                         line-height: 22px;
                         color: #FFFFFF;
                 }
+                &_button:hover{
+                        background: #EB443F;
+                        cursor: pointer;
+                }
 }
+.second__header{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1440px;
+        min-height: 556px;
+        background: #000915;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+        flex-wrap: wrap;
+        &_play{
+                max-width: 379px;
+                &-img{
+                border-radius: 16px;
+                }
+                &-img:hover{
+                        border: 3px solid #44D2FF;
+                        border-radius: 16px;
+                        cursor: pointer;
+                }
+                &-text{
+                width: 79px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+                position: relative;
+                left: 28px;
+                bottom: 63px;
+                }
+ 
+
+        }
+
+}
+.years__play{
+        max-width: 1440px;
+        min-height: 556px;
+        background: #000915;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 135px;
+        flex-wrap: wrap;
+        &_items{
+                max-width: 584px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap: 32px;
+        }
+        &_text1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 59px;
+                color: #FFFFFF;
+        }
+        &_text2{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        }
+}
+@import "mobile"
