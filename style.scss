@@ -47,6 +47,10 @@
                         line-height: 22px;
                         color: #FFFFFF;
                 }
+                &_button:hover{
+                        background: #EB443F;
+                        cursor: pointer;
+                }
 }
 .second__header{
         background-repeat: no-repeat;
@@ -64,6 +68,11 @@
                 max-width: 379px;
                 &-img{
                 border-radius: 16px;
+                }
+                &-img:hover{
+                        border: 3px solid #44D2FF;
+                        border-radius: 16px;
+                        cursor: pointer;
                 }
                 &-text{
                 width: 79px;

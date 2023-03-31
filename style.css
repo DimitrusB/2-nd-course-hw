@@ -49,6 +49,10 @@
   line-height: 22px;
   color: #FFFFFF;
 }
+.main__header_button:hover {
+  background: #EB443F;
+  cursor: pointer;
+}
 
 .second__header {
   background-repeat: no-repeat;
@@ -68,6 +72,11 @@
 }
 .second__header_play-img {
   border-radius: 16px;
+}
+.second__header_play-img:hover {
+  border: 3px solid #44D2FF;
+  border-radius: 16px;
+  cursor: pointer;
 }
 .second__header_play-text {
   width: 79px;
@@ -174,6 +183,9 @@
     color: #FFFFFF;
     text-align: center;
   }
+  .main__header_button:hover {
+    background: #9C0332;
+  }
   .second__header {
     padding-top: 120px;
     padding-bottom: 127px;
@@ -184,6 +196,11 @@
   .second__header_play-img {
     width: 343px;
     height: 300px;
+  }
+  .second__header_play-img:hover {
+    border-radius: 16px;
+    border: none;
+    cursor: none;
   }
   .years__play {
     max-width: 1440px;

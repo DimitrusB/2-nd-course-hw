@@ -3,6 +3,9 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+    :hover:disabled{
+
+    }
     .main__header{
         height: 735px;
 
@@ -26,16 +29,25 @@
             color: #FFFFFF;
             text-align: center;
         }
+        &_button:hover{
+            background: #9C0332;
+        }
     }
     .second__header{
             padding-top: 120px;
             padding-bottom: 127px;
             &_play{
             height: 300px;
-            &-img{
-                width: 343px;
-                height: 300px;
-            }
+                &-img{
+                    width: 343px;
+                    height: 300px;
+                }
+                &-img:hover{
+                    border-radius: 16px;
+                    border: none;
+                    cursor: none;
+                    
+                }            
         }
     }
     .years__play{
