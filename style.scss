@@ -121,4 +121,37 @@
         color: #FFFFFF;
         }
 }
+.rem__play{
+        max-width: 1440px;
+        min-height: 556px;
+        background: #000915;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 135px;
+        flex-wrap: wrap;
+        &_items{
+                max-width: 588px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 32px;
+                justify-content: flex-start;
+        }
+        &_text1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 59px;
+                color: #FFFFFF;
+        }
+        &_text2{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        }
+}
+
 @import "mobile"

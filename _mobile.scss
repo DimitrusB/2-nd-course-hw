@@ -3,9 +3,9 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-    :hover:disabled{
+    // :hover:disabled{
 
-    }
+    // }
     .main__header{
         height: 735px;
 
@@ -62,6 +62,45 @@
             padding-top: 51px;
             width: 343px;
             align-items: center;
+        }
+
+        &_text1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_text2{
+            
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        &_img{
+            width: 344px;
+            height: 236px;
+            margin-bottom: 85px;  
+        }
+    }
+    .rem__play{
+        max-width: 1440px;
+        min-height: 654px;
+        background: #000915;
+        display: flex;
+        align-items: flex-start;
+        gap: 64px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        &_items{
+            padding-top: 51px;
+            width: 343px;
+            align-items: center;
+            justify-content: center;
         }
 
         &_text1{
