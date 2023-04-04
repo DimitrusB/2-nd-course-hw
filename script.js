@@ -89,3 +89,22 @@
 // console.log(`Периметр первого круга равна ${circle1.getPerimeter()} у.е.`);
 // console.log(`Площадь второго круга равна ${circle2.getArea()} у.е.`);
 // console.log(`Периметр второго круга равна ${circle2.getPerimeter()} у.е.`);
+function timeYear(mounth) {
+    mounth = Number(prompt('Введите порядковый номер месяца'));
+    if (mounth===3 || mounth<=5) {
+        alert('Сейчас весна');
+    } else 
+    if (mounth===6 || mounth<=8) {
+        alert('Сейчас лето');
+    }
+    else
+    if (mounth===9 || mounth<=11 ) {
+        alert('Сейчас осень');
+    }    
+    else
+    if (mounth===12 || mounth===1 || mounth===2) {
+        alert('Сейчас зима');
+    }
+    else
+    alert('Ошибка ввода, попробуйте ещё раз');
+}
