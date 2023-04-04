@@ -69,6 +69,11 @@
                 &-img{
                 border-radius: 16px;
                 }
+                &-img:hover{
+                        border: 3px solid #44D2FF;
+                        border-radius: 16px;
+                        cursor: pointer;
+                }
                 &-text{
                 width: 79px;
                 font-style: normal;
