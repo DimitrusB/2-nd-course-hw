@@ -74,6 +74,12 @@
             height: 236px;
             margin-bottom: 85px;  
         }
+        &-img:hover{
+            border-radius: 16px;
+            border: none;
+            cursor: none;
+            
+        }  
     }
     .rem__play{
         max-width: 1440px;
