@@ -20,19 +20,18 @@
 // alert(chetNechet());
 // ---------------------------------------------------#3
 // let num = Number(prompt('введите число'));
-// function squere(res) {
-// 	res=num**2;
-// 	console.log(res);
+// function squere(num) {
+// 	console.log(num**2);
 // }
-// function squere2(res) {
-// 	return res=num**2;
+// function squere2(num) {
+// 	return num=num**2;
 
 // }
-// squere();
-// console.log(`возврат ${squere2()}`);
+// squere(num);
+// console.log(`возврат ${squere2(num)}`);
 // ---------------------------------------------------#4
 // function age(years) {
-// 	years = (prompt('Введите сколько вам лет'));
+// 	const years = (prompt('Введите сколько вам лет'));
 // 	if (years < 0) {
 // 		alert('Вы ввели не правильное число');
 // 	}
@@ -48,15 +47,15 @@
 // let num1 = Number(prompt('введите первое число'));
 // let num2 = Number(prompt('введите второе число'));
 
-// function checkNum(res) {
-// 	if (isNaN(num1) || isNaN(num2)) {
+// function checkNum(a,b) {
+// 	if (isNaN(a) || isNaN(b)) {
 // 		alert('Одно или оба значения не являются числом');
 // 	} else {
-// 		res = num1+num2;
+// 		res = a+b;
 // 		alert (`сумма равна ${res}`);
 // 	}
 // }
-// checkNum();
+// checkNum(num1,num2);
 // ---------------------------------------------------#6
 // function checkNum(res) {
 // 	num = Number(prompt('введите первое число'));
@@ -91,14 +90,14 @@
 // console.log(`Периметр второго круга равна ${circle2.getPerimeter()} у.е.`);
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
-    if (mounth===3 || mounth<=5) {
+    if (mounth>=3 && mounth<=5) {
         alert('Сейчас весна');
     } else 
-    if (mounth===6 || mounth<=8) {
+    if (mounth>=6 && mounth<=8) {
         alert('Сейчас лето');
     }
     else
-    if (mounth===9 || mounth<=11 ) {
+    if (mounth>=9 && mounth<=11 ) {
         alert('Сейчас осень');
     }    
     else
