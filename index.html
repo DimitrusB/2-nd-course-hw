@@ -11,10 +11,55 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
     <div class="main__header center">
         <h1 class="main__header_welcome">Добро пожаловать на мой сайт !</h1>
-        <p class="main__header_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и приступай</p>
+        <p class="main__header_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b>  и <b>приступай</b> </p>
         <button class="main__header_button">Поехали!</button>
     </div>
+    <div class="second__header center">
+        <div class="second__header_play">
+            <img  class="second__header_play-img" src="img/play1.jpg" alt="play1"  onclick="timeYear()">
+           <span class="second__header_play-text"> Игра 1</span>
+        </div>
+        <div class="second__header_play">
+            <img  class="second__header_play-img" src="img/play2.jpg" alt="play1">
+           <span class="second__header_play-text"> Игра 2</span>
+        </div>
+        <div class="second__header_play">
+            <img  class="second__header_play-img" src="img/play3.jpg" alt="play1">
+           <span class="second__header_play-text"> Игра 3</span>
+        </div>
+    </div>
+    <div class="years__play center">
+        <div class="years__play_items">
+            <p class="years__play_text1">Времена года!</p>
+            <p class="years__play_text2">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button class="main__header_button">Играть!</button>
+        </div>
+        <img class="years__play_img" src="img/undraw_video_game.png" alt="">
+    </div>
+    <div class="rem__play center">
+        <img class="rem__play_img" src="img/undraw_gaming_re.png" alt="">
+        <div class="rem__play_items">
+            <p class="rem__play_text1">Запомни слова </p>
+            <p class="rem__play_text2">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button class="main__header_button">Играть!</button>
+        </div>
+    </div>
+    <div class="zagadki__play center">
+        <div class="zagadki__play_items">
+            <p class="zagadki__play_text1">Игра в загадки</p>
+            <p class="zagadki__play_text2">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button class="main__header_button">Играть!</button>
+        </div>
+    </div>
+</header>
+<footer>
+    <div class="footer__main center">
+        <p class="footer__main_text">Все права защищены </p>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
