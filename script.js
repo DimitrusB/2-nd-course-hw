@@ -30,7 +30,7 @@
 // squere(num);
 // console.log(`возврат ${squere2(num)}`);
 // ---------------------------------------------------#4
-// function age(years) {
+// function age() {
 // 	const years = (prompt('Введите сколько вам лет'));
 // 	if (years < 0) {
 // 		alert('Вы ввели не правильное число');
