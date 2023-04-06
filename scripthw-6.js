@@ -16,3 +16,6 @@
 // numbs=numbs.join(' ');
 // console.log(numbs)
 // =====================================#4
+let arr=[];
+arr.push[1, 1, 1];
+console.log(arr);
