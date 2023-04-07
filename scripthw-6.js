@@ -69,7 +69,6 @@
 // }
 //     console.log(red);
 // =====================================#11
-
 let arr = [1, 2, 3, 4, 5];
 function square(){
 arr = arr.map(el => el **2);
