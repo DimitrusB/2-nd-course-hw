@@ -82,14 +82,14 @@
 // }
 // square();
 // =====================================#12
-const arr = ['слово', '', 'слог', 'длинное предложение', 'буква']
-function wordFar(){
-var lenFar = arr.map((far) => {
-     return far.length;
-  })
-  console.log(lenFar);
-}
-wordFar();
+// const arr = ['слово', '', 'слог', 'длинное предложение', 'буква']
+// function wordFar(){
+// var lenFar = arr.map((far) => {
+//      return far.length;
+//   })
+//   console.log(lenFar);
+// }
+// wordFar();
 // calcLetter();
 // =====================================#13
 // let arr =[1, 2, 3, -4, 5, -6];
