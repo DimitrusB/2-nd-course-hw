@@ -15,14 +15,15 @@
 // let numbs =[1, 3, 5, 10, 20];
 // numbs=numbs.join(' ');
 // console.log(numbs)
-// =====================================#4!!!
-let arr=[];
-
-for (let i=1; i<=3; i++ ) {
-    arr.push(i);
-
-}
-console.log(arr);
+// =====================================#4
+// let arr=[];
+// for (let i=1; i<=3; i++ ) {
+//     arr[i] =[];
+//     for(var j = 0; j < 3; ++j){
+//         arr[i][j] = 1;
+//       }
+// }
+// console.log(arr);
 // =====================================#5
 // let mas = [1, 1, 1];
 // mas.push(2, 2, 2);
@@ -65,7 +66,6 @@ console.log(arr);
 // console.log(arr);
 // console.log(arrAll);
 // =====================================#10!!
-
 // function red(){
 //     let arr = [1,3,5,3,2,5,6];
 // const sum=arr.reduce((a,b) => a+b);
