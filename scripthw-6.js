@@ -16,9 +16,9 @@
 // numbs=numbs.join(' ');
 // console.log(numbs)
 // =====================================#4!!!
-// let arr=[];
-// arr.push[1, 1, 1];
-// console.log(arr);
+let arr=[];
+arr.push[1, 1, 1];
+console.log(arr);
 // =====================================#5
 // let mas = [1, 1, 1];
 // mas.push(2, 2, 2);
@@ -69,14 +69,15 @@
 // }
 //     console.log(red);
 // =====================================#11
-let arr = [1, 2, 3, 4, 5];
-function square(){
-arr = arr.map(el => el **2);
-console.log(arr);
-}
-square();
+// let arr = [1, 2, 3, 4, 5];
+// function square(){
+// arr = arr.map(el => el **2);
+// console.log(arr);
+// }
+// square();
 // =====================================#12
 // const array = ['слово', '', 'слог', 'длинное предложение', 'буква']
+// function calcLetter (){
 // const calcLength = array => {
 //   const map = new Map();
 //     for (let str of array) {
@@ -87,3 +88,15 @@ square();
 //     const result = calcLength(array)
 
 //     console.log(result)
+// }
+// calcLetter();
+// =====================================#13
+// let arr =[1, 2, 3, -4, 5, -6];
+// function negative(){
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i]<0){
+// 	console.log(`Отрицательное значение массива ${arr[i]}`);
+// }
+// }
+// }
+// negative();
