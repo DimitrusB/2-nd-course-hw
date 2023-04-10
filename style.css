@@ -247,6 +247,7 @@
   .second__header {
     padding-top: 120px;
     padding-bottom: 127px;
+    justify-content: center;
   }
   .second__header_play {
     height: 300px;
@@ -268,6 +269,7 @@
     align-items: flex-start;
     gap: 64px;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .years__play_items {
     padding-top: 51px;
@@ -301,6 +303,7 @@
     background: #000915;
     display: flex;
     align-items: flex-start;
+    align-content: center;
     gap: 64px;
     flex-wrap: wrap;
     flex-direction: column-reverse;
