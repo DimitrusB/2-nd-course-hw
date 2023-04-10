@@ -28,7 +28,11 @@
 //     console.log("максимальное число :",  Math.max(...arr));
 //     console.log("минимальное число :",  Math.min(...arr));
 // ========================================#5
-
+// function getRandomInt(minValue, maxValue) {
+//         return Math.round(Math.random()*(maxValue)) + minValue;
+//     }
+// console.log(getRandomInt(1,10));
+// ========================================#6
 
 
 function timeYear(mounth) {
