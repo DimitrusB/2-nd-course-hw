@@ -3,18 +3,30 @@
 // str = str.toUpperCase();
 // console.log(str);
 // ========================================#2
-const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-const search = prompt('введите начало строки для поиска слов') ;
-function startSearch(){
-let arr=[];
-searchStart.forEach((searchStart) => {
-	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
-		arr.push(searchStart);
-	}
-});
-alert( `искомые слова ${arr}`);
-}
-startSearch();
+// const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+// const search = prompt('введите начало строки для поиска слов') ;
+// function startSearch(){
+// let arr=[];
+// searchStart.forEach((searchStart) => {
+// 	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
+// 		arr.push(searchStart);
+// 	}
+// });
+// alert( `искомые слова ${arr}`);
+// }
+// startSearch();
+// ========================================#3
+// let num = 32.58884;
+// let flo = Math.floor(num);
+// alert(`округление ${num} до меньшего целого ${flo}`)
+// let ceil = Math.ceil(num);
+// alert(`округление ${num} до большего целого ${ceil}`)
+// let rou = Math.round(num);
+// alert(`округление ${num} до ближайшего целого ${rou}`)
+// ========================================#4
+
+
+
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
     if (mounth>=3 && mounth<=5) {
