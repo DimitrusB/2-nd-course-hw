@@ -61,6 +61,21 @@
 // console.log(`Второе случайное число в интервале от ${numFirst} до ${numSecond}: ${arr[1]}`);
 // }
 // numArr();
+// ========================================#8
+// const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+// "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+// let myDate = new Date()
+// let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()]; 
+// console.log(fullDate); 
+// ========================================#9
+// let currentDate = new Date();
+// console.log(currentDate.getDate());
+
+// currentDate.setDate(78);
+// console.log(currentDate);
+// ========================================#10
+
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
     if (mounth>=3 && mounth<=5) {
