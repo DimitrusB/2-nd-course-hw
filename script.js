@@ -47,8 +47,20 @@
 // }
 // numToArray();
 // ========================================#7
-
-
+// let numFirst = Number(prompt('Введите первое число'));
+// let numSecond = Number(prompt('Введите второе число'));
+// function numArr(){
+// let arr= [];
+// for (let i = numFirst; i >=numFirst && i<=numSecond ; i++) {
+//     let result =  Math.floor(Math.random()*(numSecond-numFirst+1))+numFirst;
+//     arr.push(result);
+//     if (arr.length === 2)
+//     break;
+// }
+// console.log(`Первое случайное число в интервале от ${numFirst} до ${numSecond}: ${arr[0]}`);
+// console.log(`Второе случайное число в интервале от ${numFirst} до ${numSecond}: ${arr[1]}`);
+// }
+// numArr();
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
     if (mounth>=3 && mounth<=5) {
