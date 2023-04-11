@@ -32,18 +32,22 @@
 //         return Math.round(Math.random()*(maxValue)) + minValue;
 //     }
 // console.log(getRandomInt(1,10));
-// ========================================#6!!!
-let num = Number(prompt('Введите число'));
-function numToArray(){
-    let arr =[];
-    for ( i=0 ; i <= num; ++i) {
-        num =  Math.floor(Math.random()*(num-0+1))+0;
-        arr.push(num);
-}
-    console.log(arr);
+// ========================================#6
+// let num = Number(prompt('Введите число'));
+// function numToArray(){
+//     let arr =[];
+//     for ( i=0 ; i < num; i++) {
+//         let num1 =  Math.floor(Math.random()*(num-0+1))+0;
+//         arr.push(num1);
+//         if (arr.length===num/2)
+//         break;
+// }
+//     console.log(arr);
 
-}
-numToArray();
+// }
+// numToArray();
+// ========================================#7
+
 
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
