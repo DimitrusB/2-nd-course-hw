@@ -109,7 +109,7 @@ function fruitsGame(){
             alert('Вы были близки к победе!');}
         else
             alert ('Не угадали');
-        }
+}
 
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
