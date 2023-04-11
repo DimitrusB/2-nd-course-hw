@@ -3,18 +3,18 @@
 // str = str.toUpperCase();
 // console.log(str);
 // ========================================#2
-// const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-// const search = prompt('введите начало строки для поиска слов') ;
-// function startSearch(){
-// let arr=[];
-// searchStart.forEach((searchStart) => {
-// 	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
-// 		arr.push(searchStart);
-// 	}
-// });
-// alert( `искомые слова ${arr}`);
-// }
-// startSearch();
+const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+const search = prompt('введите начало строки для поиска слов') ;
+function startSearch(){
+let arr=[];
+searchStart.forEach((searchStart) => {
+	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
+		arr.push(searchStart);
+	}
+});
+alert( `искомые слова ${arr}`);
+}
+startSearch();
 // ========================================#3
 // let num = 32.58884;
 // let flo = Math.floor(num);
@@ -97,15 +97,13 @@
 // ========================================#11
 function fruitsGame(){
     let fruitArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    let findFruitsFirst = prompt(`Введите название первого фрукта из списка ${fruitArr}`);
-    let findFruitsSecond = prompt(`Введите название второго фрукта ${fruitArr}`);
-    fruitArr =  fruitArr.map(i=>i.toLowerCase());
     fruitArr = fruitArr.sort(() => Math.random() - 0.5);
-    findFruitsFirst = findFruitsFirst.toLowerCase();
-    findFruitsSecond = findFruitsSecond.toLowerCase();
-        if (fruitArr[0].includes(findFruitsFirst) && fruitArr[1].includes(findFruitsSecond) ) {
+    let findFruitsFirst = prompt(`Введите название первого фрукта из списка ${fruitArr}`).toLowerCase();
+    let findFruitsSecond = prompt(`Введите название второго фрукта ${fruitArr}`).toLowerCase();
+    fruitArr =  fruitArr.map(i=>i.toLowerCase());
+        if (fruitArr[0].includes(findFruitsFirst) && fruitArr[fruitArr.length - 1].includes(findFruitsSecond) ) {
             alert('Вы угадали!!!')}
-        else if (fruitArr[0].includes(findFruitsFirst) || fruitArr[1].includes(findFruitsSecond)) {
+        else if (fruitArr[0].includes(findFruitsFirst) || fruitArr[fruitArr.length - 1].includes(findFruitsSecond)) {
             alert('Вы были близки к победе!');}
         else
             alert ('Не угадали');
