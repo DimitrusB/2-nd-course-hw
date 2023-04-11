@@ -94,6 +94,25 @@
 //     console.log(fullTime);
 // };
 // DateDisp();
+// ========================================#11
+function fruitsGame(){
+    let fruitArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    alert(`Список всех икомых фруктов ${fruitArr}`);
+    fruitArr =  fruitArr.map(i=>i.toLowerCase());
+    fruitArr = fruitArr.sort(() => Math.random() - 0.5);
+    let findFruitsFirst = prompt('Введите название первого фрукта');
+    let findFruitsSecond = prompt('Введите название второго фрукта');
+    findFruitsFirst = findFruitsFirst.toLowerCase();
+    findFruitsSecond = findFruitsSecond.toLowerCase();
+            if (fruitArr[0].includes(findFruitsFirst) && fruitArr[1].includes(findFruitsSecond) ) {
+            alert('Вы угадали!!!')}
+            else if (fruitArr[0].includes(findFruitsFirst) || fruitArr[1].includes(findFruitsSecond)) {
+            alert('Вы были близки к победе!');}
+            else
+            alert ('Не угадали');
+
+        }
+
 
 
 function timeYear(mounth) {
