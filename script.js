@@ -97,7 +97,7 @@
 // ========================================#11
 function fruitsGame(){
     let fruitArr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-    alert(`Список всех икомых фруктов ${fruitArr}`);
+    alert(`Список всех иcкомых фруктов ${fruitArr}`);
     fruitArr =  fruitArr.map(i=>i.toLowerCase());
     fruitArr = fruitArr.sort(() => Math.random() - 0.5);
     let findFruitsFirst = prompt('Введите название первого фрукта');
