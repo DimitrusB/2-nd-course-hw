@@ -75,6 +75,26 @@
 // currentDate.setDate(78);
 // console.log(currentDate);
 // ========================================#10
+// let currentDate = new Date();
+
+// function DateDisp(){
+//     const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+//     const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+//     let minutes = currentDate.getMinutes();
+//     let seconds = currentDate.getSeconds();
+//     if (minutes < 10){
+//         minutes = "0" + minutes; 
+//     }
+//     if (seconds < 10){
+//         seconds = "0" + seconds; 
+//     }
+//     let fullDate = "Сегодня: " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear() + " год, - это " + days[currentDate.getDay()]; 
+//     let fullTime = "Время: " + currentDate.getHours() + " : " + minutes + " : " + seconds;
+//     console.log(fullDate); 
+//     console.log(fullTime);
+// };
+// DateDisp();
+
 
 function timeYear(mounth) {
     mounth = Number(prompt('Введите порядковый номер месяца'));
