@@ -5,8 +5,7 @@
 // ========================================#2
 let searchWords = prompt('Введите слова через пробел (не взирая на регистр), в которых необходимо произвести поиск');
 const searchStart = searchWords.split(' ');
-const search = prompt('введите начало слова для поиска слов в массиве') ;
-function startSearch(){
+function startSearch(search){
 let arr=[];
 searchStart.forEach((searchStart) => {
 	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
@@ -15,7 +14,7 @@ searchStart.forEach((searchStart) => {
 });
 alert( `искомые слова ${arr}`);
 }
-startSearch();
+startSearch('ко');
 // ========================================#3
 // let num = 32.58884;
 // let flo = Math.floor(num);
