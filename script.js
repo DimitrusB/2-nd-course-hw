@@ -3,13 +3,14 @@
 // str = str.toUpperCase();
 // console.log(str);
 // ========================================#2
-const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
-const search = prompt('введите начало строки для поиска слов') ;
+let searchWords = prompt('Введите слова через пробел (не взирая на регистр), в которых необходимо произвести поиск');
+const searchStart = searchWords.split(' ');
+const search = prompt('введите начало слова для поиска слов в массиве') ;
 function startSearch(){
 let arr=[];
 searchStart.forEach((searchStart) => {
 	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
-		arr.push(searchStart);
+		arr.push(searchStart.toLocaleUpperCase());
 	}
 });
 alert( `искомые слова ${arr}`);
