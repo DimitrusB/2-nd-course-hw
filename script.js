@@ -3,18 +3,34 @@
 // str = str.toUpperCase();
 // console.log(str);
 // ========================================#2
-let searchWords = prompt('Введите слова через пробел (не взирая на регистр), в которых необходимо произвести поиск');
-const searchStart = searchWords.split(' ');
-function startSearch(search){
-let arr=[];
-searchStart.forEach((searchStart) => {
-	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
-		arr.push(searchStart.toLocaleUpperCase());
-	}
-});
-alert( `искомые слова ${arr}`);
-}
-startSearch('ко');
+// let searchWords = prompt('Введите слова через пробел (не взирая на регистр), в которых необходимо произвести поиск');
+// const searchStart = searchWords.split(' ');
+// function startSearch(search){
+// let arr=[];
+// searchStart.forEach((searchStart) => {
+// 	if (searchStart.toLowerCase().startsWith(search.toLowerCase())) {
+// 		arr.push(searchStart.toLocaleUpperCase());
+// 	}
+// });
+// alert( `искомые слова ${arr}`);
+// }
+// startSearch('ко');
+// ========================================#2 correct techer
+// function searchStart(arr, search) {
+//     let result = [];
+  
+//     arr.forEach((item) => {
+//       if (item.toLowerCase().startsWith(search.toLowerCase())) {
+//         result.push(item);
+//       }
+//     });
+  
+//     return result;
+//   }
+  
+//   console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); // ['Кошка', 'Комар']
+//   console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); // ['груша']
+//   console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); // []
 // ========================================#3
 // let num = 32.58884;
 // let flo = Math.floor(num);
