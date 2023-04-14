@@ -40,17 +40,17 @@
 // }
 
 
-function ifNum (){
-    const arry = [1, '4', false, 9, 'two']
-    let arr = arry.map(Number);
+function ifNum (arry){
+    // const arry = [1, '4', false, 9, 'two'];
+    var arr = arry.map(Number);
         for (let i = 0; i <= arr.length; i++) {
-            if (arr[i] === NaN ){
-            arr.splice(arr[i],1);
+            if (arr[i] == NaN){
+            arr.splice(arr[i], 1);
         }
     }
     console.log(arr);
 }
-ifNum();
+ifNum([1, '4', false, 9, 'two']);
 
 // ifNum([1, '4', false, 9, 'two']);
 
