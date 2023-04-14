@@ -1,19 +1,29 @@
 // ========================================#1
 // const num = [3, 4, 1, 9];
-function mult(num, ){
+function mult(){
+
     let res =1;
-for (let i = 0; i < num.length; i++) {
-    res *= num[i] ;
-
-}
-console.log(res);
-}
-
-
-function getResult(callback){
-    console.log('произведение чисел массива равно');
-    callback();
+        for (let i = 0; i < arr.length; i++) {
+            res *= Array[i] ;
+        }
+        console.log(`произведение чисел массива равно ${res}`);
 }
 
+function sum(){
+    let res =0;
+    for (let i = 0; i < arr.length; i++) {
+        res += Array[i] ;
+    }
+    console.log(`сумма чисел массива равна ${res}`);
+}
+// sum([3, 4, 1, 9]);
 
-getResult([3, 4, 1, 9] , mult);
+let arr =[];
+function getResult(arr, callback){
+
+callback();
+}
+
+
+getResult([3, 4, 1, 9], mult);
+getResult([3, 4, 1, 9], sum);
