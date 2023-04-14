@@ -33,4 +33,30 @@
 //     return a.age - b.age;
 // });
 // console.log(users);
+// ========================================#3
+// function reversArr(){
+//     arr.reverse();
+//     console.log(arr)
+// }
 
+
+function ifNum (){
+    const arry = [1, '4', false, 9, 'two']
+    let arr = arry.map(Number);
+        for (let i = 0; i <= arr.length; i++) {
+            if (arr[i] === NaN ){
+            arr.splice(arr[i],1);
+        }
+    }
+    console.log(arr);
+}
+ifNum();
+
+// ifNum([1, '4', false, 9, 'two']);
+
+// const arr = [1, '4', 9, 'two'];
+
+// function each(arr, callback){
+// callback();
+// }
+// each(arr, reversArr)
