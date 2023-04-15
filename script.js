@@ -59,3 +59,15 @@
 // each(arr, reversArr);
 // each(arr, ifNum);
 // ========================================#4
+// let time = 3000;
+// function timer (){
+// let timerId = setInterval(() => console.log(Date()), time);
+// setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, time*10);
+// }
+// function messDate (callback){
+// console.log('Начало таймера на 30 сек.');
+// callback();
+// setTimeout(()=>{console.log('Таймер завершил работу')} , time*10+100 );
+// }
+// messDate(timer);
+
