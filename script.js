@@ -71,3 +71,22 @@
 // }
 // messDate(timer);
 // ========================================#5
+// function calling() {
+//     console.log('Звоню!')
+// };
+// var time =1000;
+// function beeps() {
+//     setTimeout(() => {
+//         console.log('Идут гудки...')
+//     }, time);
+// }
+
+// function talk() {
+//     setTimeout(() =>{
+//     console.log('Разговор')
+//     }, time + 1000);
+// }
+
+// calling();
+// beeps();
+// talk();
