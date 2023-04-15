@@ -1,12 +1,12 @@
 // ========================================#1
-// function mult(){
+// function mult(arr){
 //     let res =1;
 //         for (let i = 0; i < arr.length; i++) {
 //             res *= arr[i] ;
 //         }
 //         console.log(`произведение чисел массива равно ${res}`);
 // }
-// function sum(){
+// function sum(arr){
 //     let res =0;
 //     for (let i = 0; i < arr.length; i++) {
 //         res += arr[i] ;
@@ -15,11 +15,11 @@
 // }
 
 // function getResult(arr, callback){
-// callback();
+// callback(arr);
 // }
-// let arr = [3, 4, 1, 9];
-// getResult(arr, mult);
-// getResult(arr, sum);
+
+// getResult([3, 4, 1, 9], mult);
+// getResult([3, 4, 1, 9], sum);
 // ========================================#2
 // const users = [
 // 	{name: 'Jon', age: 22},
@@ -34,15 +34,15 @@
 // });
 // console.log(users);
 // ========================================#3
-// function reversArr(){
-//     const arr = [1, '4', 9, 'two'];
+// function reversArr(arr){
+
 //     arr.reverse();
 //     console.log(arr)
 // }
 
-// function ifNum (){
-//     const arry=[1, '4', false, 9, 'two']
-//     const arr = arry.map(Number);
+// function ifNum (arr){
+    
+//     arr = arr.map(Number);
 //         for (let i = 0; i <= arr.length; i++) {
 //             if (isNaN(arr[i])){
 //             arr.splice(i, 1) ;
@@ -51,13 +51,13 @@
 //     console.log(arr);
 // }
 
-// const arr = [];
+
 // function each(arr, callback){
-// callback();
+// callback(arr);
 // }
 
-// each(arr, reversArr);
-// each(arr, ifNum);
+// each([1, '4', 9, 'two'], reversArr);
+// each([1, '4', false, 9, 'two'], ifNum);
 // ========================================#4
 // let time = 3000;
 // function timer (){
