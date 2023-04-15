@@ -34,27 +34,28 @@
 // });
 // console.log(users);
 // ========================================#3
-function reversArr(){
-    arr.reverse();
-    console.log(arr)
-}
+// function reversArr(){
+//     const arr = [1, '4', 9, 'two'];
+//     arr.reverse();
+//     console.log(arr)
+// }
 
-function ifNum (){
-    const arry=[1, '4', false, 9, 'two']
-    var arr = arry.map(Number);
-        for (let i = 0; i <= arr.length; i++) {
-            if (isNaN(arr[i])){
-            arr.splice(i, 1) ;
-        }
-    }
-    console.log(arr);
-}
-// ifNum([1, '4', false, 9, 'two']);
+// function ifNum (){
+//     const arry=[1, '4', false, 9, 'two']
+//     const arr = arry.map(Number);
+//         for (let i = 0; i <= arr.length; i++) {
+//             if (isNaN(arr[i])){
+//             arr.splice(i, 1) ;
+//         }
+//     }
+//     console.log(arr);
+// }
 
+// const arr = [];
+// function each(arr, callback){
+// callback();
+// }
 
-const arr = [1, '4', 9, 'two'];
-function each(arr, callback){
-callback();
-}
-each(arr, reversArr);
-each(arr, ifNum);
+// each(arr, reversArr);
+// each(arr, ifNum);
+// ========================================#4
